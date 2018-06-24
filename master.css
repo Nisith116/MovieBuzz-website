@@ -1,0 +1,60 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+  background-color: #e8e5d0;
+}
+
+.dropdown-menu:hover{
+  background-color: #c5d1e5;
+  text-decoration: none;
+}
+
+.heading-image{
+  display: none;
+}
+
+.slides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid  #ada6a6;
+}
+
+.row{
+  position: relative;
+}
+
+.mySlides{
+  height: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.dropdown-menu:hover{
+  background-color: #c5d1e5;
+  text-decoration: none;
+}
+
+.post{
+  position: relative;
+}
+
+.row{
+  position: relative;
+}
+
+@media only screen and (min-width:960px){
+  .post{
+    width: 90%;
+  }
+  #card-trending{
+    width: 90%;
+  }
+}
